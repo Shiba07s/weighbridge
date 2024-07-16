@@ -1,0 +1,74 @@
+/* General styles */
+.landing-page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../assets/intro-bg.jpg'); /* Add the path to your background image */
+  background-size: cover; /* Scale the image to cover the entire element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  color: #fff; /* Set the text color to white for better visibility on the image */
+  height: 80%;
+}
+
+/* Header styles */
+.header {
+  background-color: rgba(51, 51, 51, 0.8); /* Add a semi-transparent background to the header */
+  padding: 20px;
+}
+
+.header__title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 14%;
+ }
+
+.header__nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  
+}
+
+.header__nav-item {
+  margin-right: 20px;
+}
+
+.header__nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+.main {
+  padding: 20px;
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background to the main content */
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section__title {
+  margin-top: 0;
+}
+
+/* Footer styles */
+.footer {
+  background-color: rgba(51, 51, 51, 0.8); /* Add a semi-transparent background to the footer */
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+.signin-signup-page{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}

@@ -1,0 +1,84 @@
+/* WeighBridgeForm Component */
+/* .WeighBridgeForm-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+  } */
+  
+  .WeighBridgeForm-container {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    padding: 1rem;
+    /* width: 300%; */
+  }
+  
+  .WeighBridgeForm-gate-form {
+    /* Form styles */
+  }
+  
+  .WeighBridgeForm-form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .WeighBridgeForm-form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .WeighBridgeForm-form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .WeighBridgeForm-search-row {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .WeighBridgeForm-search-input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .WeighBridgeForm-search-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .WeighBridgeForm-submit-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  @keyframes blink {
+    0% {
+      color: red;
+    }
+    50% {
+      color: transparent;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  .blink-text {
+    animation: blink 1s infinite;
+  }
+  .blue-label {
+    color: blue;
+  }
+  
+  

@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Dropdown Container */
+  .dropdown-container {
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .dropdown-container select {
+    padding: 8px 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Fields Container */
+  .fields-container {
+    margin: 20px;
+    width: 100%;
+  }
+  
+  .fields-container .row {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+  }
+  
+  .fields-container .col-md-4 {
+    /* flex: 0 0 33.333333%; */
+    /* max-width: 33.333333%; */
+    /* padding: 10px; */
+  }
+  
+  .fields-container label {
+    /* display: block; */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .quality-pg{
+    /* width: 30%; */
+  }
+  
+  .fields-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.coal-fields-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}

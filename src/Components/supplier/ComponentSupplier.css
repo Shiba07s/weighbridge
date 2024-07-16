@@ -1,0 +1,48 @@
+General form styling
+form {
+    display: flex;
+  
+    flex-direction: column;
+    /* width: 413px; Adjust as needed */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+   }
+   
+   /* Label styling */
+   label {
+    margin-bottom: 5px;
+    font-weight: bold;
+   }
+   
+   /* Input field styling */
+   input[type="text"], input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+   }
+   
+   /* Submit button styling */
+   button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   button[type="submit"]:hover {
+    background-color: #0056b3;
+   }
+   
+   /* Optional: Add some spacing between form elements */
+   form > div {
+    margin-bottom: 15px;
+   }
+
+   
