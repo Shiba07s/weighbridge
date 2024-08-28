@@ -110,4 +110,115 @@ Depending on the factors mentioned earlier. It is essential to have a well-defin
 plan, an experienced development team, and efficient project management to 
 ensure a successful timely delivery of the software.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Create a spring boot maven project.
+//
+//2. Create a rest controller and implement the below APIs
+//
+//a. NewAccount creation API:
+//
+//Fields Datatype Value
+//
+//id String (Primary
+//
+// 
+//
+//key)
+//
+// 
+//
+//&lt;Auto generate&gt;
+//
+//name String &lt;input field&gt;
+//
+//accountNumber Long (Unique
+//
+//key)
+//
+// 
+//
+//&lt;input field&gt;
+//
+//balance Double &lt;default value&gt; Zero
+//
+// 
+//
+//Result: Primary key (id) should be returned.
+//
+//b. Update account API:
+//
+//Input fields:
+//
+//accountNumber: &lt;input field&gt;
+//
+//amount: &lt;input field&gt;
+//
+//type: &lt;input field&gt; &lt;possible values: ‘credit’/’debit’&gt;
+//
+//Update Logic:
+//
+//● If the type value is “credit” then the balance field in the database
+//
+//should be credited with the given amount.
+//
+//● If the type value is “debit” then the balance field in the database
+//
+//should be debited with the given amount.
+//
+// 
+//
+//c. Get account API:
+//
+//Input field:
+//
+//accountNumber: &lt;input field&gt;
+//
+//Result: Account entity response for the given account number.
+//
+//Storage:
+//
+//Use in-memory to store the entity, retrieve the same from memory, and update. No need
+//
+//for a database connection.
+//
+//Validation &amp; Configuration:
+//
+// 
+//
+//1. accountNumber: field length should be 12 digit (length should be configurable in
+//
+//application.properties file)
+//
+//2. type: allowed values are “credit” &amp; “debit” (allowed type values should be defined
+//
+//in the application.properties)
+//
+// 
+//
+//Expected classes:
+//
+//Rest Controller: &lt;for all rest APIs &gt;
+//
+//Service class with interface: &lt;should have business logic&gt;
+//
+//Entity: &lt;define all the fields for persistence&gt;
+//
+//Technology:
+//
+//Java 11, Spring &amp; Spring boot
   
