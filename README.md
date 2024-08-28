@@ -15,6 +15,19 @@ sudo apt install mysql-server
 sudo systemctl status mysql
 
 
+
+sudo mysql
+
+CREATE USER 'mhophi'@'%' IDENTIFIED WITH mysql_native_password BY 'mhophi';
+
+
+GRANT ALL ON *.* to 'mhophi'@'%';
+
+
+FLUSH PRIVILEGES;
+
+
+
 Overview:
 Our proposed E-commerce Multi-Vendor Software Solution is designed to 
 empower to establish a thriving online marketplace where multiple vendors can 
@@ -101,14 +114,4 @@ Depending on the factors mentioned earlier. It is essential to have a well-defin
 plan, an experienced development team, and efficient project management to 
 ensure a successful timely delivery of the software.
 
-
-sudo mysql
-
-CREATE USER 'mhophi'@'%' IDENTIFIED WITH mysql_native_password BY 'mhophi';
-
-
-GRANT ALL ON *.* to 'mhophi'@'%';
-
-
-FLUSH PRIVILEGES;
   
