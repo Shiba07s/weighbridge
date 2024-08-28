@@ -9,7 +9,19 @@ Currently, two official plugins are available:
 
 Database configuaration:
 
+sudo apt install mysql-server
+
+
+sudo systemctl status mysql
+
+
+sudo mysql
+
 CREATE USER 'mhophi'@'%' IDENTIFIED WITH mysql_native_password BY 'mhophi';
+
+
 GRANT ALL ON *.* to 'mhophi'@'%';
+
+
 FLUSH PRIVILEGES;
   
